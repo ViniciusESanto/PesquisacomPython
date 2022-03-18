@@ -11,5 +11,7 @@ pesquisa = list(
         num_results=5 # Quantidade de resultados que buscara para a pesquisa
     )
 )
-
-print(pesquisa)
+print('O Resultado da sua pesquisa foi:')
+for contador, item in enumerate(pesquisa):
+    print(f'{contador} - {item}')
+    print('-----------------------------------------------------')
